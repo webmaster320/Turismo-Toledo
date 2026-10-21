@@ -1,0 +1,72 @@
+.nav_menu{
+    width: 100%;
+    height: 64px;
+    z-index: 8;
+    background-color: #0943b5;
+}
+
+.menu{
+    width: 78%;
+    height: 64px;
+    margin: 0 11% 0 11%;
+    background-color: #0070f0;
+    border-radius: 7px;
+}
+
+.infor_contacto, .acerca_de, .destinos, .inicio{
+    width: 8%;
+    height: 64px;
+    position: relative;
+    font-size: 1.4em;
+    font-weight: 400;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    overflow: hidden;
+}
+.inicio{
+    margin-left: 68%;
+    background-color: #0943b5;
+}
+
+.inicio:hover{
+    color: #005dca;
+    background-color: #f0f0f0;
+}
+
+.destinos{
+    margin-left: 76%;
+    top: -64px;
+}
+
+.destinos:hover{
+    color: #005dca;
+    background-color: #f0f0f0;
+}
+
+.acerca_de{
+    margin-left: 84%;
+    top: -128px;
+    background-color: #0943b5;
+}
+
+.acerca_de:hover{
+    color: #005dca;
+    background-color: #f0f0f0;
+}
+
+.infor_contacto{
+    margin-left: 92%;
+    top: -192px;
+}
+
+.infor_contacto:hover{
+    color: #005dca;
+    background-color: #f0f0f0;
+}
+
+.encabezado_letra{
+    margin: 0 9% 0 9%;
+}

@@ -1,0 +1,103 @@
+
+.centro_relevo, .disminuir_tamaño, .aumentar_tamaño, .contraste{
+    width: 100%;
+}
+
+.aumentar_tamaño, .disminuir_tamaño, .centro_relevo{
+    margin-top: 6.66px; 
+}
+
+.opciones_relevo{
+    position: relative;
+}
+
+.accesibilidad
+{
+    position: fixed;
+}
+
+.accesibilidad{
+    z-index: 8;
+}
+
+.centro_relevo, .disminuir_tamaño, .aumentar_tamaño, .fond_relevo, .contraste, .accesibilidad{
+    border-radius: 5px;
+}
+
+.centro_relevo, .disminuir_tamaño, .aumentar_tamaño, .contraste{
+    overflow: hidden;
+}
+
+.accesibilidad{
+    width: 97px;
+    height: 247px;
+    top: 35.5vh;
+    right: -2%;
+    padding-top: 18.03px;
+    background-color: #0943b5;
+}
+
+.list_accesibilidad{
+    width: 100%;
+    height: auto;
+}
+
+.contraste:hover {
+    width: 290px;
+    margin-left: -200%;
+    transition: margin 0.6s ease;
+    background-color: #005dca;
+    cursor: pointer;
+}
+
+.fond_relevo{
+    width: 50px; 
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    margin: 1px 0 0 3%;
+}
+
+.opciones_relevo{
+    font-size: 1.65em; 
+    color: #ffffff; 
+    margin: -39.5px 0 0 25%; 
+    font-weight: 400; 
+    display: none;
+}
+
+.aumentar_tamaño:hover {
+    width: 290px;
+    margin-left: -200%;
+    transition: margin 0.6s ease;
+    background-color: #005dca;
+    cursor: pointer;
+}
+
+.tamaño_cuadro{
+    height: 52px;
+    background-color: #0943b5; 
+}
+
+.disminuir_tamaño:hover {
+    width: 290px;
+    margin-left: -200%;
+    transition: margin 0.6s ease;
+    background-color: #005dca;
+    cursor: pointer;
+}
+
+.centro_relevo{
+    display: block;
+    cursor: pointer;
+}
+
+.centro_relevo:hover {
+    width: 290px;
+    margin-left: -200%;
+    text-decoration: none;
+    transition: margin 0.6s ease;
+    background-color: #005dca;
+}

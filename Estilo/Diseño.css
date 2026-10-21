@@ -1,0 +1,452 @@
+body{
+    font-family: "inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 13.5px;
+}
+
+h1, h2, h3, h5, h5, h6{
+    font-weight: 600;
+    margin: 0;
+}
+
+h1{
+    font-size: 3em;
+}
+
+h2{
+    font-size: 2em;
+}
+
+h3{
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.recortar_texto_1{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+}
+
+.recortar_texto_2{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+.recortar_texto_3{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+
+.ver_mas{
+    font-size: 1.1em;
+    font-weight: 550;
+    color: #ffffff;
+    padding: 8px 1.1% 8px 1.1%;
+    background-color: #005dca;
+}
+
+.sec_naturaleza, .sec_gastronomia, .sec_cultura, .clima, .sec_alojamientos, .titul_explorar, .filtro_opaco, .img_transicion, .img_principal, .fond_bienvenida{
+    width: 100%;
+}
+
+.galeria_naturaleza, .descrip_cultura, .titul_bienvenida{
+    width: 60%;
+}
+
+.descrip_alojamientos{
+    width: 45%;
+}
+
+.galer_alojam-foto2, .galer_alojam-foto3{
+    width: 79.5%;
+}
+
+.galer_natural_imag1, .galer_natural_imag2, .galer_natural_imag3, .galer_natural_imag4{
+    width: 24%;
+}
+
+.galer_cult-foto1, .galer_cult-foto2{
+    width: 32%;
+    height: 270px;
+}
+
+.galer_gastro_imag1, .galer_gastro_imag2, .galer_gastro_imag3, .galer_gastro_imag4{
+    width: 18%;
+    height: 580px;
+    box-shadow: 3px 3px 3px 3px gray;
+}
+
+.filtro_opaco{
+    height: 1000px;
+}
+
+.galer_alojam-foto1, .alojamientos{
+    height: 600px;
+}
+
+.img_transicion, .img_principal{
+    height: 141vh;
+}
+
+.sec_alojamientos{
+    height: 680px;
+}
+
+.galer_natural_imag1, .galer_natural_imag2, .galer_natural_imag3, .galer_natural_imag4, .galer_cult-foto3, .descrip_alojamientos, .galeria_alojamientos, .fond_bienvenida{
+    height: 100%;
+}
+
+.descrip_cultura{
+    height: auto;
+    padding: 0 0 40px 0;
+    margin: 0 0 0 20%;
+}
+
+.explorar_destinos, .descrip_bienvenida, .toledo_bienvenida{
+    color: #ffffff; 
+}
+
+.fond_bienvenida, .filtro_opaco{
+    background-color: black;
+}
+
+.explorar_destinos{
+    background-color: #0a7aff;
+}
+
+.sec_alojamientos{
+    background-color: #e4e4e4;
+}
+
+.sec_alojamientos{
+    padding-top: 70px;
+}
+
+.sec_cultura{
+    padding: 60px 0 50px 0;
+}
+
+.img_transicion{
+    opacity: 1;
+}
+
+.filtro_opaco{
+    opacity: 20%;
+}
+
+.img_transicion{
+    left : 0;
+}
+
+.fond_bienvenida{
+    top: 0;
+}
+
+.barra_1, .barra_2, .barra_3, .barra_4{
+    width: 0;
+    height: 0;
+    border-left: 1.31vw solid transparent;
+    border-top: 15px solid transparent;
+}
+
+.descrip_naturaleza, .descrip_gastronomia, .descrip_cultura, .descrip_alojamientos, .titul_explorar, .titul_bienvenida {
+    display: flex;
+}
+
+.ver_mas, .explorar_destinos {
+    display: inline-block;
+}
+
+.fond_gastronomia_imagenes, .galeria_alojamientos, .explorar_destinos, .descrip_bienvenida, .toledo_bienvenida, .sec_alojamientos, .titul_explorar, .img_principal{
+    position: relative;
+}
+
+.barra_1, .barra_2, .barra_3, .barra_4, .titul_bienvenida, .fond_bienvenida, .filtro_opaco, .img_transicion{
+    position: absolute;
+}
+
+.galeria_alojamientos, .fond_bienvenida, .img_transicion{
+    z-index: 0;
+}
+
+.explorar_destinos, .descrip_bienvenida, .toledo_bienvenida, .sec_alojamientos, .img_principal{
+    z-index: 1;
+}
+
+.titul_explorar, .filtro_opaco{
+    z-index: 2;
+}
+
+.barra_1, .titul_bienvenida{
+    z-index: 4;
+}
+
+.barra_2{
+    z-index: 5;
+}
+
+.barra_3{
+    z-index: 6;
+}
+
+.barra_4{
+    z-index: 7;
+}
+
+.sec_naturaleza, .fond_gastronomia_imagenes, .descrip_naturaleza, .descrip_gastronomia, .descrip_cultura, .sec_cultura, .descrip_alojamientos, .titul_bienvenida{
+    text-align: center;
+}
+
+.descrip_naturaleza, .descrip_gastronomia, .descrip_cultura, .descrip_alojamientos, .titul_explorar, .titul_bienvenida{
+    align-items: center;
+    justify-content: center;
+}
+
+.descrip_naturaleza, .descrip_gastronomia, .descrip_cultura, .descrip_alojamientos, .titul_bienvenida{
+    flex-direction: column;
+}
+
+.img_principal{
+    transition: opacity 0.5s ease;
+    opacity: 1;
+}
+
+.galer_natural_imag1, .galer_natural_imag2, .galer_natural_imag3, .galer_natural_imag4, .ver_mas, .fond_gastronomia_imagenes, .galer_gastro_imag1, .galer_gastro_imag2, .galer_gastro_imag3, .galer_gastro_imag4, .galer_cult-foto1, .galer_cult-foto2, .galer_cult-foto3, .galer_alojam-foto1, .galer_alojam-foto2, .galer_alojam-foto3{
+    border-radius: 5px;
+}
+
+.img_transicion, .img_principal{
+    object-fit: cover;
+}
+
+.sec_naturaleza, .fond_gastronomia_imagenes, .descrip_naturaleza, .descrip_gastronomia, .descrip_cultura, .descrip_alojamientos, .alojamientos, .titul_bienvenida{
+    overflow: hidden;
+}
+
+.toledo_bienvenida{
+    font-weight: 700;
+    font-size: 5em; 
+    -webkit-line-clamp: 2;
+}
+
+.titul_bienvenida{
+    height: 420px;
+    margin-top: 290px;
+    margin-left: 20%;
+}
+
+.descrip_bienvenida{
+    font-size: 1.9em;
+    margin: 20px 15% 68px 15%; 
+    -webkit-line-clamp: 2;
+}
+
+.explorar_destinos{
+    font-size: 1.6em;
+    font-weight: 500;
+    padding: 7px 3% 7px 3%;
+    border-radius: 80px;
+}
+
+.fond_bienvenida{
+    opacity: 45%;
+    border-radius: 40px;
+}
+
+.barra_1{
+    padding-right: 89.71%;
+    margin: 970px 0 0 9%;
+    border-bottom: 15px solid #005dca;
+}
+
+.barra_2{
+    padding-right: 63.71%;
+    margin: 970px 0 0 35%;
+    border-bottom: 15px solid #0a7aff;
+}
+
+.barra_3{
+    padding-right: 37.71%;
+    margin: 970px 0 0 61%;
+    border-bottom: 15px solid #005dca;
+}
+
+.barra_4{
+    padding-right: 11.71%;
+    margin: 970px 0 0 87%;
+    border-bottom: 15px solid #0a7aff;
+}
+
+.titul_explorar{
+    height: 120px;
+    background-color: white;
+    box-shadow: 0 0 40px 0 #000000;
+}
+
+.tit_explora{
+    font-size: 3em;
+    font-weight: 700;
+    color: #005dca;
+}
+
+.alojamientos{
+    width: 72%;
+    margin-left: 14%;
+    background-color: #e4e4e4;
+}
+
+.info_naturaleza, .info_gastronomia, .info_cultura, .info_alojamiento{
+    font-size: 1.85em;
+    font-weight: 500;
+}
+
+.info_alojamiento{
+    margin: 15px 2% 0 2%;
+}
+
+.galeria_alojamientos{
+    width: 55%;
+    margin: -600px 0 0 45%;
+    background-color: #e4e4e4;
+}
+
+.galer_alojam-foto1{
+    width: 17.5%;
+    background-color: gray;
+}
+
+.galer_alojam-foto2{
+    height: 400px;
+    margin: -600px 0 0 20.5%;
+    background-color: gray;
+}
+
+.galer_alojam-foto3{
+    height: 168px;
+    margin: 32px 0 0 20.5%;
+    background-color: gray;
+}
+
+.sec_cultura{
+    height: auto;
+    background-color: #0a7aff;
+}
+
+.info_cultura{
+    margin: 20px 0 0 0;
+    color: #ffffff;
+}
+
+.galeria_cultura{
+    width: 50%;
+    height: 560px;
+    margin: 0 0 0 25%;
+}
+
+.galer_cult-foto1{
+    background-color: white;
+}
+
+.galer_cult-foto2{
+    margin-top: 20px;
+    background-color: white;
+}
+
+.galer_cult-foto3{
+    width: 65.8%;
+    margin: -560px 0 0 34.2%;
+    background-color: white;
+}
+
+.sec_gastronomia{
+    height: 760px;
+    padding-top: 110px;
+    background-color: #fff;
+}
+
+.descrip_gastronomia{
+    width: 40%;
+    height: 680px;
+    margin: 0 0 0 10%;
+}
+
+.info_gastronomia{
+    margin: 15px 5.6% 0 5.6%;
+}
+
+.fond_gastronomia_imagenes{
+    width: 40%;
+    height: 680px;
+    background-color: #fff;
+    margin-left: 50%;
+    top: -680px;
+}
+
+.galer_gastro_imag1{
+    margin: 20px 0 0 5.6%;
+    background-color: white;
+}
+
+.galer_gastro_imag2{ 
+    margin: -580px 0 0 29.2%;
+    background-color: white;
+}
+
+.galer_gastro_imag3{
+    margin: -580px 0 0 52.8%;
+    background-color: white;
+}
+
+.galer_gastro_imag4{    
+    margin: -580px 0 0 76.4%;
+    background-color: white;
+}
+
+.sec_naturaleza{
+    height: auto;
+    padding: 70px 0 50px 0;
+    background-color: #005dca;
+}
+
+.descrip_naturaleza{
+    width: 50%;
+    height: auto;
+    margin: 0 0 45px 25%;
+}
+
+.info_naturaleza{
+    margin: 20px 0 0 0;
+    color: #ffffff;
+}
+
+.galeria_naturaleza{
+    height: 290px;
+    margin: 0 0 0 20%;
+}
+
+.galer_natural_imag1{
+    background-color: white;
+}
+
+.galer_natural_imag2{
+    margin: -290px 0 0 25.33%;
+    background-color: white;
+}
+
+.galer_natural_imag3{
+    margin: -290px 0 0 50.66%;
+    background-color: white;
+}
+
+.galer_natural_imag4{
+    margin: -290px 0 0 75.99%;
+    background-color: white;
+}

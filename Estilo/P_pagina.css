@@ -1,0 +1,166 @@
+.estado_pag_alcaldia, .fond_logo, .pie_pagina{
+    width: 100%;
+}
+
+.instagram, .facebook, .redes_alcaldía, .colombia_hora, .bandera_alcaldía, .linea_vertical, .alcaldía_decoracion, .alcaldía_info{
+    position: relative;
+}
+
+.estado_pag_alcaldia, .diseño_redes, .bandera_alcaldía, .escudo_alcaldía{
+    display: flex;
+}
+
+.estado_pag_alcaldia{
+    justify-content: center;
+    align-items: center;
+}
+
+.redes_alcaldía, .hora_legal, .alcaldía_decoracion, .alcaldía_info, .fond_logo{
+    overflow: hidden;
+}
+
+.pie_pagina{
+    height: 640px;
+}
+
+.fond_logo{
+    text-align: center;
+    height: auto;
+    font-size: 1.15em;
+    padding: 30px 0 20px 0;
+    background-color: #0943b5;
+}
+
+.info_pie-pagin{
+    width: 78%;
+    height: 475px;
+    margin: 0 0 0 11%;
+    background-color: #ffffff;
+    border: solid;
+    border-width: 1px;
+    border-color: #d8d8d8;
+}
+
+.titul_pie{
+    font-size: 1.40em;
+    text-align: center;
+    margin: 45px 0 10px 0;
+    color: #0a7aff;
+}
+
+.alcaldía_info{
+    width: 54%;
+    height: 260px;
+    margin-left: 4%;
+}
+
+.alcaldía_decoracion{
+    width: 38%;
+    height: 260px;
+    margin-left: 58%;
+    top: -260px;
+}
+
+.titul_letra_alcaldia{
+    font-size: 1.06em;
+    font-weight: 400;
+    margin: 0 0 0 0;
+    color: #ffffff;
+}
+
+.letra_alcaldía{
+    font-size: 1.06em;
+    font-weight: 400;
+    margin: 14px 3% 0 0;
+    color: #424242;
+}
+
+.bandera_alcaldía, .escudo_alcaldía{
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.escudo_alcaldía{
+    width: 18%;
+    margin-left: 62.8%;
+}
+
+.img_escudo_toledo{
+    width: 85%;
+    height: auto;
+}
+
+.linea_vertical{
+    width: 0.2%;
+    height: 55px;
+    margin-left: 79.8%;
+    top: -72.5px;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.bandera_alcaldía{
+    width: 20%;
+    top: -155px;
+    float: right;
+}
+
+.img_bandera_toledo{
+    width: 75%;
+    height: auto;
+}
+
+.colombia_hora{
+    top: -155px;
+    float: right;
+}
+
+.hora_legal{
+    width: 510px;
+    height: 100px;
+    border: none;
+}
+
+.redes_alcaldía{
+    width: 92%;
+    height: auto;
+    margin-left: 4%;
+    top: -260px;
+}
+
+.instagram, .facebook{
+    width: 50%;
+    height: 2.6vw;
+    display: block;
+    background-color: blue;
+}
+
+.instagram{
+    margin: -2.6vw 0 0 50%;
+}
+
+.diseño_redes{
+    width: 7.31%;
+    height: 2.6vw;
+    background-color: red;
+}
+
+.letra_enlace{
+    font-size: 1.15em;
+    font-weight: 500;
+    margin: -1.95vw 0 0 8%;
+}
+
+.estado_pag_alcaldia{
+    height: 50px;
+    margin-top: 20px;
+}
+
+.info_estado_pag{
+    font-size: 1.06em;
+    font-weight: 500;
+    margin: 0 0 0 0;
+    color: #424242;
+}
