@@ -1,0 +1,433 @@
+body{
+    font-family: "inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 13.5px;
+    margin: 0;
+}
+
+h1, h2, h3, h5, h5, h6{
+    font-weight: 600;
+    margin: 0;
+}
+
+h1{
+    font-size: 3em;
+}
+
+h2{
+    font-size: 2em;
+}
+
+h3{
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+h4{
+    font-size: 1.40em;
+    font-weight: 700;
+}
+
+.titul_variacion{
+    margin-bottom: 20px;
+}
+
+.titul_variacion2{
+    margin-bottom: 20px;
+}
+
+.azul_rey_letra{
+    color: #005dca;
+}
+
+.azul_rey_claro_letra{
+    color: #0a7aff;
+}
+
+.blanco_letra{
+    color: #ffffff;
+}
+
+.azul_rey_oscuro_letra{
+    color: #0943b5;
+}
+
+.azul_rey_oscuro{
+    background-color: #0943b5;
+}
+
+.fondo_imagen, .imagen_principal, .informacion_importante, .galeria_sitio, .servicios_sitio{
+    width: 100%;
+}
+
+.titulo_sitio, .filtro_opaco, .imagen_sitio{
+    width: 100%;
+    height: 600px;
+}
+
+.contenido_galeria, .presentacion{
+    width: 78%;
+    margin-left: 11%;
+}
+
+.flecha_izquierda, .flecha_derecha{
+    width: 4%;
+    height: 70px;
+    background-color: #0943b5;
+}
+
+.cerrar_imagen, .flecha_izquierda, .flecha_derecha{
+    padding: 0 0 0 0;
+    border-style: none;
+    display: block;
+}
+
+.ubicacion_mapa, .contenedor_info_importante, .presentacion{
+    display: flex;
+}
+
+.ubicacion_mapa, .presentacion{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ubicacion_mapa, .contenedor_info_importante, .linea_decorativa, .letra_informacion, .informacion_sitio, .informacion_importante, .flecha_izquierda, .flecha_derecha, .servicio_3, .servicio_2, .presentacion, .presentacion_sitio, .barra_4,.barra_3,.barra_2, .barra_1, .titulo_sitio, .filtro_opaco, .imagen_principal, .imagen_sitio{
+    position: relative;
+}
+
+.imagen_amplia, .cerrar_imagen, .fondo_imagen{
+    position: fixed;
+}
+
+.letra_informacion, .contenedor_info_importante, .flecha_izquierda, .servicio_2, .presentacion, .filtro_opaco{
+    z-index: 1;
+}
+
+.flecha_derecha, .servicio_3, .titulo_sitio{
+    z-index: 2;
+}
+
+.barra_1{
+    z-index: 3;
+}
+
+.presentacion_sitio{
+    z-index: 4;
+}
+
+.fondo_imagen{
+    z-index: 9;
+}
+
+.cerrar_imagen{
+    z-index: 10;
+}
+
+.imagen_amplia{
+    z-index: 11;
+}
+
+.ubicacion_mapa, .contactos, .horario_atencion, .direccion, .informacion_sitio, .informacion_importante, .galeria_imagen1, .galeria_imagenes, .galeria_sitio, .contenido_galeria, .contenedor_servicio, .fuente_sitio, .decoracion_sitio{
+    overflow: hidden;
+}
+
+.imagen_amplia, .cerrar_imagen, .fondo_imagen{
+    top: 0px;
+}
+
+.decoracion_sitio{
+    height: 600px;
+}
+
+.imagen_amplia, .cerrar_imagen, .fondo_imagen{
+    visibility: hidden;
+}
+
+.imagen_principal{
+    top: -280px;
+}
+
+.filtro_opaco{
+    opacity: 20%;
+    top: -600px;
+    background-color: #000000;
+}
+
+.titulo_sitio{
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -1200px;
+}
+
+.barra_3, .barra_1{
+
+}
+
+.barra_4, .barra_2{
+    background-color: #005dca;
+}
+
+.barra_1{
+    width: 100%;
+    height: 100px;
+    top: -1300px;
+    background: linear-gradient(transparent, #52a0ff);
+}
+
+.barra_2{
+    margin-left: 25%;
+    top: -1215px;
+}
+
+.barra_3{
+    margin-left: 50%;
+    top: -1230px;
+}
+
+.barra_4{
+    margin-left: 75%;
+    top: -1245px;
+}
+
+.presentacion_sitio{
+    height: 300px;
+    text-align: justify;
+    background-color: #52a0ff;
+}
+
+.presentacion{
+    height: 450px;
+    top: -150px;
+    border-radius: 15px;
+    background-color: #80bbff;
+}
+
+.presentacion:hover{
+    box-shadow: 0 0 5px 5px #000000;
+}
+
+.titul_caracter_sitio{
+    font-size: 2.5em;
+    font-weight: 550;
+}
+
+.fuente_sitio{
+    font-size: 1.8em;
+    font-weight: 400;
+    margin: 0 7% 0 7%;
+}
+
+.servicios_sitio{
+    text-align: center;
+    padding: 50px 0 50px 0;
+    background-color: #52a0ff;
+}
+
+.contenedor_servicio{
+    width: 80%;
+    margin-left: 10%;
+}
+
+.servicio_2:hover{
+    box-shadow: 0 0 5px 3px #000000;
+}
+
+.servicio_3, .servicio_2, .servicio_1{
+    width: 30.667%;
+    height: 100px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.servicio_1{
+    margin: 22px 0 0 0;
+}
+
+.servicio_2{
+    margin: -100px 0 0 34.667%;
+}
+
+.servicio_3{
+    margin: -100px 0 0 69.334%;
+}
+
+.galeria_sitio{
+    height: 417px;
+    padding: 70px 0 70px 0;
+    background-color: #e4e4e4;
+}
+
+.contenido_galeria{
+    text-align: center;
+}
+
+.galeria_imagenes{
+    width: 96%;
+    height: 350px;
+    margin: 0 0 0 2%;
+}
+
+.galeria_imagen9, .galeria_imagen8, .galeria_imagen7, .galeria_imagen6, .galeria_imagen5, .galeria_imagen4, .galeria_imagen3, .galeria_imagen2, .galeria_imagen1{
+    width: 23.75%;
+    height: 330px;
+    position: relative;
+    border-radius: 15px;
+    background-color: red;
+}
+
+.z{
+    transition: all 0.3s linear;
+}
+
+.imagen{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.galeria_imagen1{
+    margin: 10px 0 0 1%;
+}
+
+.galeria_imagen2{
+    margin-left: 25.75%;
+    top: -330px;
+    background-color: purple;
+}
+
+.galeria_imagen3{
+    margin-left: 50.5%;
+    top: -660px;
+    background-color: orange;
+}
+
+.galeria_imagen4{
+    margin-left: 75.25%;
+    top: -990px;
+    background-color: skyblue;
+}
+
+.galeria_imagen5{
+    margin-left: 100%;
+    top: -1320px;
+    background-color: yellow;
+}
+
+.galeria_imagen6{
+    margin-left: 124.75%;
+    top: -1650px;
+    background-color: blue;
+}
+
+.galeria_imagen7{
+    margin-left: -48.5%;
+    top: -1980px;
+    background-color: #000000;
+}
+
+.galeria_imagen8{
+    margin-left: -23.75%;
+    top: -2310px;
+    background-color: #ffffff;
+}
+
+.flecha_izquierda{
+    margin: -205.5px 0 0 7%;
+}
+
+.flecha_derecha{
+    margin: -70px 0 0 89%;
+}
+
+.fondo_imagen{
+    height: 100vh;
+    opacity: 85%;
+    background-color: #000000;
+}
+
+.cerrar_imagen{
+    width: 70px;
+    height: 70px;
+    margin: 10px 0.7% 0 0;
+    right: 0;
+    border-radius: 50px;
+    background-color: red;
+}
+
+.imagen_amplia{
+    width: 70%;
+    height: 100vh;
+    margin-left: 15%;
+    border-radius: 15px;
+    background-color: #ffffff;
+}
+
+.informacion_importante{
+    padding: 60px 0 60px 0;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.informacion_sitio{
+    width: 38%;
+    height: 470px;
+    margin: 0 0 0 11%;
+}
+
+.contactos, .horario_atencion, .direccion{
+    width: 100%;
+    height: 140px;
+    border-radius: 5px;
+    background-color: #eeeeee;
+}
+
+.contactos, .horario_atencion{
+    margin: 25px 0 0 0;
+}
+
+.linea_decorativa{
+    width: 1.5%;
+    height: 140px;
+}
+
+.contenedor_info_importante{
+    width: 100%;
+    height: 140px;
+    margin: -140px 0 0 0;
+}
+
+.contenedor_info_importante{
+    text-align: left;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.letra_informacion{
+    margin: 0 0 7px 7%;
+}
+
+.fuente_informacion{
+    font-size: 1.15em;
+    font-weight: 300;
+    line-height: 21px;
+    color: #1a1a1a;
+    margin: 0 0 0 7%;
+}
+
+.ubicacion_mapa{
+    width: 38%;
+    height: 470px;
+    margin: -470px 0 0 50%;
+}
+
+.mapa_sitio{
+    width: 88%;
+    height: 18vw;
+    box-shadow: 0 0 5px 0 #000000;
+    border: none;
+}

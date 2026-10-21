@@ -1,0 +1,419 @@
+body{
+    font-family: "inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+    margin: 0;
+    background-color: #fbfbfb;
+    text-align: center;
+}
+
+h1, h2, h3, h5, h5, h6{
+    font-weight: 600;
+    margin: 0;
+}
+
+h1{
+    font-size: 3.5em;
+}
+
+h2{
+    font-size: 2.5em;
+}
+
+h3{
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.parte_x, .espacio_apartados, .apartado_imagen, .fondo_titulo_apartado, .info_eleccion, .inicio_caracterizacion{
+    width: 100%;
+}
+
+.info_caracterizacion, .opaco_img, .caracterizacion{
+    width: 100%;
+    height: 440px;
+}
+
+.espacio_apartados{
+    height: 305px;
+    padding: 40px 0 40px 0;
+}
+
+.accion_2{
+    display: none;
+}
+
+.titulos_hospedajes{
+    font-size: 2.8em; 
+    font-weight: 700; 
+    margin-block-start: 0px; 
+    margin-block-end: 0px;
+}
+
+.fondo_titulo_apartado{
+    height: 141px;
+    background-color: #ffffff;
+}
+
+.letra_azul_rey_claro{
+    color: #0a7aff;
+}
+
+.letra_azul_rey{
+    color: #005dca;
+}
+
+.apartado_decoracion1{
+    background-color: #0a7aff;
+    border-color: #0a7aff;
+}
+
+.apartado_decoracion2{
+    background-color: #005dca;
+    border-color: #005dca;
+}
+
+.apartado_decoracion3{
+    background-color: #0a7aff;
+    border-color: #0a7aff;
+}
+
+.decoracion_blanca{
+    background-color: #ffffff;
+}
+
+.seleccion_color_1{
+    color: #0a7aff;
+    background-color: #e4e4e4;
+}
+
+.seleccion_color_2{
+    color: #005dca;
+    background-color: #eeeeee;
+}
+
+.seleccion_color_2:hover, .seleccion_color_1:hover {
+    color: #ffffff;
+    background-color: #0943b5;
+}
+
+.elegido{
+    color: #ffffff;
+    background-color: #242424;
+}
+
+.pag, .pag_flechas, .apartado_informacion, .apartado_pie_fondo, .apartado_imagen, .apartado, .fondo_titulo_apartado, .barra_decoracion_4, .barra_decoracion_3, .barra_decoracion_2, .barra_decoracion_1, .elec_4, .elec_3, .elec_2, .info_eleccion, .img_caracterizacion, .info_caracterizacion, .opaco_img, .caracterizacion{
+    position: relative;
+}
+
+.apartado_pie_fondo, .apartado, .barra_decoracion_3, .info_eleccion, .opaco_img{
+    z-index: 1;
+}
+
+.apartado_informacion, .barra_decoracion_2, .fondo_titulo_apartado, .info_caracterizacion, .caracterizacion{
+    z-index: 2;
+}
+
+.barra_decoracion_1{
+    z-index: 3;
+}
+
+.pag, .pag_flechas, .parte_x, .apartado_informacion_fondo, .apartado_pie_fondo, .eleccion, .info_caracterizacion{
+    display: flex;
+}
+
+.pag, .pag_flechas, .eleccion, .apartado_pie_fondo, .info_caracterizacion{
+    justify-content: center;
+    align-items: center;
+}
+
+.parte_x, .espacio_apartados, .apartado_informacion, .apartado, .fondo_titulo_apartado, .eleccion, .caracterizacion{
+    overflow: hidden;
+}
+
+.inicio_caracterizacion{
+    margin-bottom: 30px;
+}
+
+.opaco_img{
+    background-color: #000000;
+    opacity: 40%;
+}
+
+.info_caracterizacion{
+    flex-direction: column;
+    text-align: center;
+    top: -370px;
+}
+
+.nom_caracterizacion{
+    font-size: 4.5em;
+    color: #ffffff;
+}
+
+.des_caracterizacion{
+    font-size: 1.6em;
+    font-weight: 500;
+    color: #ffffff;
+    margin: 0 0 0 0;
+}
+
+.img_caracterizacion{
+    width: 100%;
+    height: auto;
+    top: -590px;
+}
+
+.info_eleccion{
+    height: 100px;
+    background-color: #f8f8f8;
+    box-shadow: 0 17px 40px -6px #202020;
+}
+
+.rectangulo_eleccion{
+    width: 58.33%;
+    height: 100px;
+    margin-left: 20.835%;
+}
+
+.eleccion{
+    width: 25%;
+    height: 97px;
+    text-align: center;
+    border-style: solid;
+    border-width: 0 0 3px 0;
+    border-color: white;
+    text-decoration: none;
+}
+
+.elec_1{
+    color: #000000;
+    border-color: #000000;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.elec_1:hover{
+    color: #0a7aff;
+    border-color: #0a7aff;
+    background-color: #e2e2e2;
+}
+
+.elec_2{
+    top: -100px;
+    margin-left: 25%;
+    color: #000000;
+    border-color: #000000;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.elec_2:hover{
+    color: #0a7aff;
+    border-color: #0a7aff;
+    background-color: #e2e2e2;
+}
+
+.elec_3{
+    top: -200px;
+    margin-left: 50%;
+    color: #0a7aff;
+    border-color: #0a7aff;
+    background-color: #e2e2e2;
+}
+
+.elec_4{
+    top: -300px;
+    margin-left: 75%;
+    color: #000000;
+    border-color: #000000;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.elec_4:hover{
+    color: #0a7aff;
+    border-color: #0a7aff;
+    background-color: #e2e2e2;
+}
+
+.letra_eleccion{
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+.titulos_hospedajes{
+    padding-top: 20px;
+    color: #005dca;
+}
+
+.barra_decoracion_2, .barra_decoracion_1{
+    width: 0;
+    height: 0;
+    border-right: 1.31vw solid transparent;
+    border-top: 13px solid transparent;
+}
+
+.barra_decoracion_1{
+    padding-left: 20%;
+    border-bottom: 13px solid #0a7aff;
+}
+
+.barra_decoracion_2{
+    margin-left: 20%;
+    top: -26px;
+    padding-left: 10%;
+    border-bottom: 13px solid #005dca;
+}
+
+.barra_decoracion_4, .barra_decoracion_3{
+    width: 0;
+    height: 0;
+    border-left: 1.31vw solid transparent;
+    border-top: 13px solid transparent;
+}
+
+.barra_decoracion_3{
+    float: right;
+    top: -52px;
+    padding-right: 20%;
+    border-bottom: 13px solid #005dca;
+}
+
+.barra_decoracion_4{
+    margin-right: -1.3%;
+    float: right;
+    top: -52px;
+    padding-right: 10%;
+    border-bottom: 13px solid #0a7aff;
+}
+
+.apartado{
+    width: 19%;
+    height: 305px;
+    border-radius: 31px;
+}
+
+.apartado:hover {
+    background-color: #f0f0f0;
+    box-shadow: 0 6px 8px 0 #8d8d8d;
+}
+
+.s1{
+    margin: 0 0 0 19.5%;
+
+}
+
+.s2{
+    top: -305px;
+    margin: 0 0 0 40.5%;
+
+}
+
+.s3{
+    top: -610px;
+    margin: 0 0 0 61.5%;
+
+}
+
+.apartado_imagen{
+    width: 99%;
+    height: 210px;
+    border-radius: 31px;
+    margin-top: 3px;
+}
+
+.apartado_pie_fondo{
+    width: 40%;
+    height: 40px;
+    margin-left: 30%;
+    border-radius: 10px;
+    top: -28px
+}
+
+.apartado_informacion{
+    width: 90%;
+    margin-left: 5%;
+    top: -38px;
+}
+
+.apartado_informacion_fondo{
+    width: 98%;
+    height: 76px;
+    margin: 10PX 0 0 1%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.titul_hotel{
+    font-size: 1.3em;
+    font-weight: 600;
+    text-align: left;
+    margin: 0 0 0 0;
+}
+
+.info_sitio{
+    font-size: 1em;
+    font-weight: 400;
+    text-align: left;
+    margin: 5px 0 0 0;
+}
+
+.apartado_titulo{
+    font-size: 0.85em;
+    font-weight: 600;
+    text-align: left;
+    color: #ffffff;
+}
+
+.parte_x{
+    height: 110px;
+    justify-content: center;
+}
+
+.rectangulo_partes{
+    width: 10%;
+    height: 50px;
+    border-radius: 7px;
+    margin-top: 40px;
+}
+
+.pag_flechas, .pag{
+    width: 25%;
+    height: 50px;
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.pag{
+    transition: all 0.3s ease;
+}
+
+.pag_anterior{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+.pag_1{
+    top: -50px;
+    margin-left: 25%;
+}
+
+.pag_2{
+    top: -100px;
+    margin-left: 50%;
+    cursor: pointer;
+}
+
+.pag_posterior{
+    top: -150px;
+    margin-left: 75%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+

@@ -1,0 +1,182 @@
+body{
+    font-family: "inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 13.5px;
+    margin: 0;
+    background-color: #ffffff;
+}
+
+h1, h2, h3, h5, h5, h6{
+    font-weight: 600;
+    margin: 0;
+}
+
+h1{
+    font-size: 3em;
+}
+
+h2{
+    font-size: 2em;
+}
+
+h3{
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.recortar_texto_1{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+}
+
+.recortar_texto_2{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+.recortar_texto_3{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+
+.letra_azul_rey{
+    color: #005dca; 
+}
+
+.letra_blanca{
+    color: #ffffff;
+}
+
+.fondo_blanco_gris{
+    background-color: #f7f7f7;
+}
+
+.titul_letra, .fondo_opaco, .sitio, .fondo_imagen, .fondo, .acerca_de{
+    width: 100%;
+}
+
+.titul_letra, .fondo_opaco, .fondo{
+    height: 450px;
+}
+
+.sitio_parte_2, .sitio, .acerca_de{
+    height: auto;
+}
+
+.imagen_sitio_3, .imagen_sitio_2, .titul_letra, .fondo_imagen, .fondo_opaco{
+    position: relative;
+}
+
+.fondo_imagen, .imagen_sitio_2{
+    z-index: 1;
+}
+
+.fondo_opaco{
+    z-index: 2;
+}
+
+.titul_letra{
+    z-index: 3;
+}
+
+.imagen_sitio_3, .imagen_sitio_2{
+    display: block;
+}
+
+.categoria{
+    display: inline-block
+}
+
+.titul_letra{
+    display: flex;
+}
+
+.titul_letra{
+    justify-content: center;
+    align-items: center;
+}
+
+.sitio, .sitio_parte_2, .acerca_de{
+    overflow: hidden;
+}
+
+.titul_secc{
+    font-size: 4.5em;
+}
+
+.fondo_opaco{
+    opacity: 20%;
+    margin-top: -450px;
+    background-color: #000000;
+}
+
+.fondo_imagen{
+    margin-top: -930px;
+}
+
+.sitio{
+    padding: 70px 0 70px 0;
+}
+
+.categoria{
+    font-size: 1.7em;
+    font-weight: 600;
+    padding: 11px 1% 11px 1%;
+    border-radius: 10px;
+    margin: -50px 0 15px 3%;
+    background-color: #005dca;
+}
+
+.sitio_parte_2{
+    width: 70%;
+    text-align: center;
+    margin: 0 0 0 15%;
+}
+
+.titul_sitio{
+    font-size: 2.8em;
+    font-weight: 600;
+}
+
+.letra_info{
+    font-size: 1.6em;
+    font-weight: 400;
+    text-align: justify;
+    padding-top: 35px;
+}
+
+.apartado_imagenes{
+    padding-top: 35px;
+}
+
+.imagen_sitio{
+    width: 69%;
+    border-radius: 10px;
+}
+
+.imagen_sitio_2{
+    width: 27%;
+    height: 15vw;
+    margin: 3.7vw 0 0 52%;
+}
+
+.imagen_sitio_3, .imagen_sitio_2{
+    border-radius: 30px;
+    border: solid;
+    border-width: 7px;
+    border-color: #ffffff;
+}
+
+.imagen_sitio_3{
+    width: 40%;
+    height: 22.6vw;
+    margin: -19.7vw 0 0 21%;
+}
