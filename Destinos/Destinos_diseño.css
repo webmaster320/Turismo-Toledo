@@ -1,0 +1,154 @@
+body{
+    font-family: "inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 13.5px;
+    margin: 0;
+    background-color: #ffffff;
+}
+
+h1, h2, h3, h5, h5, h6{
+    font-weight: 600;
+    margin: 0;
+}
+
+h1{
+    font-size: 3em;
+}
+
+h2{
+    font-size: 2em;
+}
+
+h3{
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.recortar_texto_1{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+}
+
+.recortar_texto_2{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+.recortar_texto_3{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+
+.som_bre_ado, .secc_letra, .apartado_imagenes, .apartado_titulo{
+    width: 100%;
+}
+
+.som_bre_ado, .secc_letra{
+    height: 100%;
+}
+
+.contenedor_imagenes, .contenedor_titulo, .apartado_titulo{
+    height: auto;
+}
+
+.contenedor_titulo{
+    display: flex;
+}
+
+.contenedor_titulo{
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor_titulo{
+    flex-direction: column;
+}
+
+.som_bre_ado, .secc_letra, .seccion_4, .seccion_3, .seccion_2{
+    position: relative;
+}
+
+.secc_letra,  .seccion_4, .seccion_3, .seccion_2{
+    z-index: 1;
+}
+
+.seccion_4, .seccion_3, .seccion_2, .secc_letra, .seccion_1, .apartado_imagenes{
+    overflow: hidden;
+}
+
+.contenedor_titulo{
+    width: 50%;
+    text-align: center;
+    margin: 50px 0 50px 25%;
+}
+
+.titulo{
+    font-size: 3.3em;
+    font-weight: 600;
+    color: #005dca;
+}
+
+.info_explorar{
+    font-size: 1.8em;
+    font-weight: 500;
+}
+
+.apartado_imagenes{
+    height: 612px;
+}
+
+.contenedor_imagenes{
+    width: 65%;
+    margin: 0 0 0 17.5%;
+    background-color: red;
+}
+
+.seccion_1{
+    width: 59%;
+    margin: 0 0 0 1%;
+}
+
+.som_bre_ado{
+    opacity: 20%;
+    top: -300px;
+    background-color: #000000;
+}
+
+.secc_nombre{
+    font-size: 3.1em;
+    font-weight: 600;
+    margin: 240px 0 0 2%;
+    color: #ffffff;
+}
+
+.seccion_4, .seccion_3, .seccion_2, .seccion_1{
+    height: 300px;
+    border-radius: 20px;
+    background-color: blue;
+}
+
+.seccion_2{
+    width: 38%;
+    margin: 0 0 0 61%;
+    top: -300px;
+}
+
+.seccion_3{
+    width: 38%;
+    margin: 12px 0 0 1%;
+    top: -300px;
+}
+
+.seccion_4{
+    width: 59%;
+    margin: 0 0 0 40%;
+    top: -600px;
+}
