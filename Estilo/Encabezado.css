@@ -29,6 +29,7 @@
 .inicio{
     margin-left: 68%;
     background-color: #0943b5;
+    text-decoration: none;
 }
 
 .inicio:hover{
@@ -39,6 +40,7 @@
 .destinos{
     margin-left: 76%;
     top: -64px;
+    text-decoration: none;
 }
 
 .destinos:hover{
@@ -50,6 +52,7 @@
     margin-left: 84%;
     top: -128px;
     background-color: #0943b5;
+    text-decoration: none;
 }
 
 .acerca_de:hover{
@@ -60,6 +63,7 @@
 .infor_contacto{
     margin-left: 92%;
     top: -192px;
+    text-decoration: none;
 }
 
 .infor_contacto:hover{

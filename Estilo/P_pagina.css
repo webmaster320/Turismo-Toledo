@@ -6,11 +6,11 @@
     position: relative;
 }
 
-.estado_pag_alcaldia, .diseño_redes, .bandera_alcaldía, .escudo_alcaldía{
+.estado_pag_alcaldia, .letra_enlace, .diseño_redes, .instagram, .facebook, .bandera_alcaldía, .escudo_alcaldía{
     display: flex;
 }
 
-.estado_pag_alcaldia{
+.estado_pag_alcaldia, .diseño_redes{
     justify-content: center;
     align-items: center;
 }
@@ -21,6 +21,7 @@
 
 .pie_pagina{
     height: 640px;
+    background-color: var(--color-blanco-oscuro);
 }
 
 .fond_logo{
@@ -35,10 +36,10 @@
     width: 78%;
     height: 475px;
     margin: 0 0 0 11%;
-    background-color: #ffffff;
+    background-color: var(--color-blanco);
     border: solid;
     border-width: 1px;
-    border-color: #d8d8d8;
+    border-color: var(--variante-foot-color-blanco-oscuro);
 }
 
 .titul_pie{
@@ -52,6 +53,7 @@
     width: 54%;
     height: 260px;
     margin-left: 4%;
+    text-align: left;
 }
 
 .alcaldía_decoracion{
@@ -72,14 +74,13 @@
     font-size: 1.06em;
     font-weight: 400;
     margin: 14px 3% 0 0;
-    color: #424242;
+    color: var(--color-gris-oscuro);
 }
 
 .bandera_alcaldía, .escudo_alcaldía{
     height: 100px;
     justify-content: center;
     align-items: center;
-    background-color: white;
 }
 
 .escudo_alcaldía{
@@ -98,7 +99,7 @@
     margin-left: 79.8%;
     top: -72.5px;
     border-radius: 10px;
-    background-color: black;
+    background-color: var(--color-negro);
 }
 
 .bandera_alcaldía{
@@ -133,24 +134,49 @@
 .instagram, .facebook{
     width: 50%;
     height: 2.6vw;
-    display: block;
-    background-color: blue;
+}
+
+.facebook:hover  .svg_pie_pagina{
+    fill: #0943b5;
+    cursor: pointer;
+}
+
+.facebook:hover  .letra_enlace{
+    color: #0943b5;
+    cursor: pointer;
 }
 
 .instagram{
     margin: -2.6vw 0 0 50%;
 }
 
+.instagram:hover  .svg_pie_pagina{
+    fill: #0943b5;
+    cursor: pointer;
+}
+
+.instagram:hover  .letra_enlace{
+    color: #0943b5;
+    cursor: pointer;
+}
+
 .diseño_redes{
     width: 7.31%;
     height: 2.6vw;
-    background-color: red;
+}
+
+.svg_pie_pagina{
+    width: 100%;
+    height: auto;
+    fill: #0a7aff;
 }
 
 .letra_enlace{
     font-size: 1.15em;
     font-weight: 500;
-    margin: -1.95vw 0 0 8%;
+    align-items: center;
+    margin: 0 0 0 1%;
+    color: #0a7aff;
 }
 
 .estado_pag_alcaldia{
@@ -162,5 +188,5 @@
     font-size: 1.06em;
     font-weight: 500;
     margin: 0 0 0 0;
-    color: #424242;
+    color: var(--color-gris-oscuro);
 }

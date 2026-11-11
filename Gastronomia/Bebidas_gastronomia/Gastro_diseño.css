@@ -5,7 +5,7 @@ body{
     font-style: normal;
     font-size: 13.5px;
     margin: 0;
-    background-color: #ffffff
+    background-color: var(--color-blanco);
 }
 
 h1, h2, h3, h5, h5, h6{
@@ -59,24 +59,28 @@ h3{
     color: #ffffff;
 }
 
+.color_negro{
+    color: var(--color-negro);
+}
+
 .color_azul_claro{
     color: #0a7aff;
 }
 
 .color_azul_rey{
-    color: #005dca;
+    color: var(--variacion-color-azul-rey);
 }
 
 .variacion_1{
-    background-color: #ffffff;
+    background-color: var(--color-blanco);
 }
 
 .variacion_2{
-    background-color: #005dca;
+    background-color: var(--color-azul-rey);
 }
 
 .variacion_3{
-    background-color: #0a7aff;
+    background-color: var(--color-azul-claro);
 }
 
 .variacion_4{
@@ -108,11 +112,11 @@ h3{
 }
 
 .v1{
-    box-shadow: -3px 3px 9px 0 #6e6e6e;
+    box-shadow: -3px 3px 9px 0 var(--color-gris);
 }
 
 .v2{
-    box-shadow: 3px 3px 7px 0 #003169;
+    box-shadow: 3px 3px 7px 0 var(--color-azul-oscuro-max);
 }
 
 .parte_x, .g_platillo1, .info_eleccion, .inicio_caracterizacion{
@@ -180,7 +184,7 @@ h3{
 
 .info_eleccion{
     height: 100px;
-    background-color: #ffffff;
+    background-color: var(--color-blanco);
     box-shadow: 0 0 20px 0 #000000;
 }
 
@@ -201,39 +205,39 @@ h3{
 }
 
 .elec_1{
-    color: #0a7aff;
-    border-color: #0a7aff;
+    color: var(--color-azul-claro);
+    border-color: var(--color-azul-claro);
     transition: all 0.3s ease;
     cursor: pointer;
 }
 
 .elec_1:hover{
-    color: #005dca;
-    border-color: #005dca;
-    background-color: #e4e4e4;
+    color: var(--variacion-color-azul-rey);
+    border-color: var(--variacion-color-azul-rey);
+    background-color: var(--color-blanco-oscuro);
 }
 
 .elec_2{
     top: -100px;
     margin-left: 33.33%;
-    color: #005dca;
-    border-color: #005dca;
-    background-color: #e4e4e4;
+    color: var(--variacion-color-azul-rey);
+    border-color: var(--variacion-color-azul-rey);
+    background-color: var(--color-blanco-oscuro);
 }
 
 .elec_3{
     top: -200px;
     margin-left: 66.66%;
-    color: #0a7aff;
-    border-color: #0a7aff;
+    color: var(--color-azul-claro);
+    border-color: var(--color-azul-claro);
     transition: all 0.3s ease;
     cursor: pointer;
 }
 
 .elec_3:hover{
-    color: #005dca;
-    border-color: #005dca;
-    background-color: #e4e4e4;
+    color: var(--variacion-color-azul-rey);
+    border-color: var(--variacion-color-azul-rey);
+    background-color: var(--color-blanco-oscuro);
 }
 
 .letra_eleccion{
@@ -291,6 +295,7 @@ h3{
 .informacion_platillo{
     font-size: 1.5em;
     font-weight: 400;
+    
     margin: 0 5% 0 5%;
 }
 
