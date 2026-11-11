@@ -5,7 +5,7 @@ body{
     font-style: normal;
     font-size: 13.5px;
     margin: 0;
-    background-color: #ffffff;
+    background-color: var(--color-blanco);
 }
 
 h1, h2, h3, h5, h5, h6{
@@ -24,6 +24,11 @@ h2{
 h3{
     font-size: 1.5em;
     font-weight: 700;
+}
+
+.acerca_de{
+    color: #005dca;
+    background-color: #f0f0f0;
 }
 
 .recortar_texto_1{
@@ -48,7 +53,7 @@ h3{
 }
 
 .letra_azul_rey{
-    color: #005dca; 
+    color: var(--variacion-color-azul-rey); 
 }
 
 .letra_blanca{
@@ -56,10 +61,10 @@ h3{
 }
 
 .fondo_blanco_gris{
-    background-color: #f7f7f7;
+    background-color: var(--variacion-color-blanco-oscuro-min);
 }
 
-.titul_letra, .fondo_opaco, .sitio, .fondo_imagen, .fondo, .acerca_de{
+.titul_letra, .fondo_opaco, .sitio, .info_comun, .fondo_imagen, .fondo, .acerca{
     width: 100%;
 }
 
@@ -67,11 +72,11 @@ h3{
     height: 450px;
 }
 
-.sitio_parte_2, .sitio, .acerca_de{
+.sitio_parte_2, .sitio, .acerca{
     height: auto;
 }
 
-.imagen_sitio_3, .imagen_sitio_2, .titul_letra, .fondo_imagen, .fondo_opaco{
+.imagen_sitio_3, .imagen_sitio_2, .titul_letra, .info_comun_2, .info_comun_1, .info_comun, .fondo_imagen, .fondo_opaco{
     position: relative;
 }
 
@@ -79,7 +84,7 @@ h3{
     z-index: 1;
 }
 
-.fondo_opaco{
+.info_comun, .fondo_opaco{
     z-index: 2;
 }
 
@@ -95,16 +100,20 @@ h3{
     display: inline-block
 }
 
-.titul_letra{
+.info_comun_4, .info_comun_3, .info_comun_2, .info_comun_1, .info_comun, .titul_letra{
     display: flex;
 }
 
-.titul_letra{
+.info_comun_4, .info_comun_3, .info_comun_2, .info_comun_1, .info_comun, .titul_letra{
     justify-content: center;
     align-items: center;
 }
 
-.sitio, .sitio_parte_2, .acerca_de{
+.info_comun_4, .info_comun_3, .info_comun_2, .info_comun_1{
+    flex-direction: column;
+}
+
+.sitio, .sitio_parte_2, .info_comun_4, .info_comun_3, .info_comun_2, .info_comun_1, .info_comun, .acerca{
     overflow: hidden;
 }
 
@@ -120,6 +129,29 @@ h3{
 
 .fondo_imagen{
     margin-top: -930px;
+}
+
+.info_comun{
+    height: 220px;
+    background-color: var(--variacion-color-blanco-oscuro-min);
+}
+
+.info_comun_4, .info_comun_3, .info_comun_2, .info_comun_1{
+    width: 13%;
+    height: 220px;
+}
+
+.info_comun_titul{
+    font-size: 2.7em;
+    font-weight: 800;
+    margin-bottom: 5px;
+    color: #0a7aff;
+}
+
+.info_comun_letra{
+    font-size: 1.25em;
+    font-weight: 300;
+    color: var(--variacion-color-gris-oscuro-max);
 }
 
 .sitio{
@@ -151,6 +183,7 @@ h3{
     font-weight: 400;
     text-align: justify;
     padding-top: 35px;
+    color: var(--color-negro);
 }
 
 .apartado_imagenes{
@@ -172,7 +205,7 @@ h3{
     border-radius: 30px;
     border: solid;
     border-width: 7px;
-    border-color: #ffffff;
+    border-color: var(--color-blanco);
 }
 
 .imagen_sitio_3{

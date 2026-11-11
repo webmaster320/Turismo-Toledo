@@ -1,0 +1,180 @@
+body{
+    font-family: "inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 13.5px;
+    margin: 0;
+    background-color: var(--color-blanco);
+}
+
+h1, h2, h3, h5, h5, h6{
+    font-weight: 600;
+    margin: 0;
+}
+
+h1{
+    font-size: 3em;
+}
+
+h2{
+    font-size: 2em;
+}
+
+h3{
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.infor_contacto{
+    color: #005dca;
+    background-color: #f0f0f0;
+}
+
+.recortar_texto_1{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+}
+
+.recortar_texto_2{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+.recortar_texto_3{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+
+.letra_azul_rey{
+    color: var(--variacion-color-azul-rey); 
+}
+
+.letra_blanca{
+    color: #ffffff;
+}
+
+.fondo_blanco_gris{
+    background-color: #f7f7f7;
+}
+
+.part_2en, .part_2, .part_1en, .part_1, .info_contactos, .titul_letra, .fondo_imagen, .fondo, .contactos{
+    width: 100%;
+}
+
+.titul_letra, .fondo_opaco, .fondo{
+    height: 380px;
+}
+
+.info_contactos, .contactos{
+    height: auto;
+}
+
+.titul_letra, .fondo_imagen, .fondo_opaco{
+    position: relative;
+}
+
+.fondo_imagen{
+    z-index: 1;
+}
+
+.fondo_opaco{
+    z-index: 2;
+}
+
+.titul_letra{
+    z-index: 3;
+}
+
+.part_2en, .part_2, .part_1en, .part_1, .apart_contacto_2, .apart_contacto_3, .apart_contacto_4, .info_contactos, .titul_letra{
+    display: flex;
+}
+
+.info_contactos, .titul_letra{
+    justify-content: center;
+    align-items: center;
+}
+
+.part_2en, .part_2, .apart_contacto_2, .apart_contacto_3, .apart_contacto_4{
+   justify-content: center;
+}
+
+.part_2en, .part_2, .apart_contacto_2, .apart_contacto_3, .apart_contacto_4{
+    flex-direction: column;
+}
+
+.apart_contacto_1, .apart_contacto_2, .apart_contacto_3, .apart_contacto_4, .part_2en, .part_2, .part_1en, .part_1, .info_contactos, .contactos{
+    overflow: hidden;
+}
+
+.titul_secc{
+    font-size: 4.5em;
+}
+
+.fondo_opaco{
+    opacity: 20%;
+    margin-top: -380px;
+    background-color: #000000;
+}
+
+.fondo_imagen{
+    margin-top: -930px;
+}
+
+.info_contactos{
+    padding: 40px 0 50px 0;
+    background-color: var(--color-blanco);
+}
+
+.apart_contacto_1, .apart_contacto_2, .apart_contacto_3, .apart_contacto_4{
+    width: 14%;
+    height: 12vw;
+    border-radius: 20px;
+    background-color: var(--color-blanco);
+    box-shadow: 0 5px 10px 0 var(--color-gris);
+}
+
+.apart_contacto_1, .apart_contacto_2, .apart_contacto_3{
+    margin-right: 2%;
+}
+
+.part_1{
+    height: 3vw;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.part_1en{
+    height: 4vw;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.titul_apart{
+    font-size: 2.2em;
+    font-weight: 600;
+    text-align: center;
+}
+
+.part_2{
+    height: 9vw;
+    gap: 0.5vw;
+}
+
+.part_2en{
+    height: 8vw;
+    gap: 0.5vw;
+}
+
+.letra_apart{
+    font-size: 1.15em;
+    font-weight: 300;
+    margin: 0 4% 0 4%;
+    color: var(--color-negro);
+}
